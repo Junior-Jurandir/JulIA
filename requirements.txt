@@ -8,4 +8,3 @@ yt-dlp
 faiss-cpu
 pandas
 python-dotenv
-dotenv
