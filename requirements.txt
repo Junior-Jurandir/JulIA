@@ -1,0 +1,11 @@
+streamlit
+langchain-core
+langchain-community
+langchain-ollama
+langchain-openai
+langchain-huggingface
+yt-dlp
+faiss-cpu
+pandas
+python-dotenv
+dotenv

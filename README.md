@@ -1,6 +1,6 @@
 # JulIA - Assistente Virtual Inteligente
 
-JulIA é uma aplicação web construída com Streamlit que permite aos usuários interagir com um assistente virtual capaz de responder perguntas baseadas no ambiente técnico da sua empresa, para isso ela só precisa ser alimentada com uma base de conhecimentos fornecida pelo usuário e em documentos adicionais que podem ser inseridos posteriormente durante o uso.
+JulIA é uma aplicação web construída com Streamlit que permite aos usuários interagir com um assistente virtual capaz de responder perguntas baseadas no ambiente técnico da sua empresa, para isso ela só precisa ser alimentada com uma base de conhecimentos fornecida pelo usuário e documentos adicionais que podem ser inseridos posteriormente durante o uso.
 
 ## Funcionalidades Principais
 
