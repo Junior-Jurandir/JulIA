@@ -266,6 +266,7 @@ if not st.session_state.uploads:
 
 # Inicializa histórico de chat e retriever na sessão
 if "chat_history" not in st.session_state:
+    st.session_state.feedback_data = []
     st.session_state.chat_history = [
         AIMessage(content="Olá, me chamo JulIA, como posso ajudar?", sender="JulIA"),
     ]
@@ -302,10 +303,29 @@ if user_query is not None and user_query != "" and uploads is not None:
         
         rag_chain = config_rag_chain(model_class, st.session_state.retriever)
 
-        result = rag_chain.invoke({"input": user_query, "chat_history": st.session_state.chat_history})
+        result = rag_chain.invoke({"input": user_query, "chat_history": st.session_state.chat_history, "feedback_data": st.session_state.feedback_data})
 
         resp = result['answer']
         st.write(resp, sender="JulIA")
+
+        # Seção de feedback
+        feedback = st.radio("A resposta foi útil?", ("Sim", "Não"))
+
+        if feedback == "Não":
+            st.write("Você selecionou 'Não'. Por favor, forneça a resposta correta:")
+            correct_answer = st.text_input("Por favor, forneça a resposta correta:")
+        if st.button("Enviar Feedback"):
+            # Debugging: Check if feedback data is being appended
+            print("Feedback submitted:", user_query, resp, feedback, correct_answer)
+
+            # Aqui você pode armazenar o feedback e a resposta correta
+            st.session_state.feedback_data.append({
+                "user_query": user_query,
+                "ai_response": resp,
+                "feedback": feedback,
+                "correct_answer": correct_answer
+            })
+            st.success("Obrigado pelo seu feedback!")
 
         # Mostrar a fonte
         sources = result['context']
