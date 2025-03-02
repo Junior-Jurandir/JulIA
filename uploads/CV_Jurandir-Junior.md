@@ -2,6 +2,29 @@
 **Analista de Machine Learning**
 
 ---
+## Técnologias
+
+**Python** | **Linux** | Arduino | R | SQL | Flutter | Power BI | Machine Learning | Data Science | Data Visualization
+
+
+---
+
+## Sobre Mim
+
+Com três anos de experiência, possuo uma base sólida em resolução de problemas, criatividade e comunicação, habilidades essenciais para o desenvolvimento de soluções inovadoras em Machine Learning. Minha trajetória inclui a criação da startup Moonlight Ltda. e atuação como Analista de Suporte na Prefeitura de Santana de Parnaíba, onde desenvolvi habilidades técnicas e estratégicas. Foi lá também que criei uma ferramenta inteligente baseada no modelo LLaMA da Meta. Com conhecimentos em Python, automação e análise de dados, busco aplicar conceitos de IA em cenários reais, contribuindo para a integração de soluções inovadoras e eficientes.
+
+---
+
+## Informações Pessoais
+
+- **Nome:** Jurandir Batista de Souza Junior
+- **Email:** Jura15012001@gmail.com
+- **LinkedIn:** [Jurandir Jr](https://www.linkedin.com/in/jurandir-jr)
+- **GitHub:** [Jurandir Jr](https://github.com/Junior-Jurandir)
+- **Telefone:** (11) 98712-3161 / (11) 97248-0874
+- **Endereço:** Rua Aracaju 20, Santana de Parnaíba - SP
+
+---
 
 ## Resumo
 
@@ -70,22 +93,6 @@
 **Fev. 2024**  
 - **Soft skills para suporte técnico**  
   Prefeitura de Santana de Parnaíba, Fev. 2024.
-
----
-
-## Sobre Mim
-
-Com três anos de experiência, possuo uma base sólida em resolução de problemas, criatividade e comunicação, habilidades essenciais para o desenvolvimento de soluções inovadoras em Machine Learning. Minha trajetória inclui a criação da startup Moonlight Ltda. e atuação como Analista de Suporte na Prefeitura de Santana de Parnaíba, onde desenvolvi habilidades técnicas e estratégicas. Foi lá também que criei uma ferramenta inteligente baseada no modelo LLaMA da Meta. Com conhecimentos em Python, automação e análise de dados, busco aplicar conceitos de IA em cenários reais, contribuindo para a integração de soluções inovadoras e eficientes.
-
----
-
-## Informações Pessoais
-
-- **Nome:** Jurandir Batista de Souza Junior
-- **Email:** Jura15012001@gmail.com
-- **LinkedIn:** [Jurandir Jr](https://www.linkedin.com/in/jurandir-jr)
-- **Telefone:** (11) 98712-3161 / (11) 97248-0874
-- **Endereço:** Rua Aracaju 20, Santana de Parnaíba - SP
 
 ---
 
